@@ -32,7 +32,7 @@ body {
     width: 100vh;
     font-weight: 800;
     color: #3d485c;
-    font-size: 55px;
+    font-size: 8vh;
     padding-left: 30px;
     padding-bottom: 20px;
     padding-top: 20px ;
@@ -98,14 +98,3 @@ body {
     transition: all .25s;
     box-shadow: 5px 5px 25px #b8bfce,-5px -5px 20px rgb(239, 241, 247)
 }
-
-/* .container:hover .item{
-    transform: scale(.9);
-    opacity: .5;
-}
-.container .item:hover {
-    transform: scale(1.1);
-    opacity: 1;
-}
- */
-
