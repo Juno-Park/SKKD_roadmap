@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+    box-sizing: border-box;
+    -ms-user-select: none; 
+    -moz-user-select: -moz-none; 
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    user-select:none;
+}
+
+body {
+    background: #d8deeb;
+    min-height: 100vh;
+}
+
+.main {
+    
+    width: 100%;
+    min-width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.title {
+    text-align: left;
+    width: 100vh;
+    font-weight: 800;
+    color: #3d485c;
+    font-size: 55px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px ;
+    margin-top: 30px;
+    
+    line-height: 140%;
+    
+    /* background: tomato; */
+}
+
+.grade {
+    position: relative;
+    font-weight: 800;
+    font-size: 40px;
+    color: #535f75;
+    width: 100vh;
+    display: inline;
+    /* background: blue; */
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 20px; 
+}
+
+.semester {
+    font-size: 18px;
+    font-weight: 700;
+    display: block;
+    color: #535f75;
+    font-weight: bold;
+    text-align: left;
+    width: 100vh;
+    /* background: blue; */
+    padding-left: 30px;
+    padding-top: 10px ;
+    margin-bottom: 15px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    width: 100vh;
+    padding: 20px;
+    padding-top: 0px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.item {
+    background:linear-gradient(to bottom right,#ccd2e2,#e5eaf1);
+    color: #697283;
+    font-size: 20px;
+    font-weight: 700;
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid none;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all .25s;
+    box-shadow: 5px 5px 25px #b8bfce,-5px -5px 20px rgb(239, 241, 247)
+}
+
+/* .container:hover .item{
+    transform: scale(.9);
+    opacity: .5;
+}
+.container .item:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+ */
+
