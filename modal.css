@@ -78,7 +78,7 @@
 .modal .modal_content h2{
     color: #3d485c;
     font-weight: 800;
-    font-size: 50px;
+    font-size: 5vh;
     margin-bottom: 5px;
 }
 
@@ -86,7 +86,7 @@
     text-align: left;
     color: #3d485c;
     font-weight: 700;
-    margin-top: 30px;
+    margin-top: 3vh;
     font-size: 30px;
     margin-bottom: 70px;
 }
@@ -94,7 +94,7 @@
 .modal_content span{
     color: #3d485c;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 2.3vh;
     
 }
 
