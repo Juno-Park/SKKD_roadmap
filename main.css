@@ -11,7 +11,7 @@
 }
 
 body {
-    background: #d8deeb;
+    background: #dee2ee;
     min-height: 100vh;
 }
 
@@ -31,8 +31,8 @@ body {
     text-align: left;
     width: 100vh;
     font-weight: 800;
-    color: #3d485c;
-    font-size: 4vh;
+    color: #263450;
+    font-size: 8vh;
     padding-left: 30px;
     padding-bottom: 20px;
     padding-top: 20px ;
@@ -47,7 +47,7 @@ body {
     position: relative;
     font-weight: 800;
     font-size: 40px;
-    color: #535f75;
+    color: #2d3b55;
     width: 100vh;
     display: inline;
     /* background: blue; */
@@ -57,10 +57,10 @@ body {
 }
 
 .semester {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     display: block;
-    color: #535f75;
+    color: #2d3b55;
     font-weight: bold;
     text-align: left;
     width: 100vh;
@@ -81,8 +81,8 @@ body {
 }
 
 .item {
-    background:linear-gradient(to bottom right,#ccd2e2,#e5eaf1);
-    color: #697283;
+    background:linear-gradient(to bottom right,#ced4e6,#ebeff5);
+    color: #3c4c68;
     font-size: 20px;
     font-weight: 700;
     width: 150px;
@@ -96,5 +96,16 @@ body {
     align-items: center;
     cursor: pointer;
     transition: all .25s;
-    box-shadow: 5px 5px 25px #b8bfce,-5px -5px 20px rgb(239, 241, 247)
+    box-shadow: 5px 5px 25px #b1b8c7,-5px -5px 20px rgb(250, 252, 255)
 }
+
+/* .container:hover .item{
+    transform: scale(.9);
+    opacity: .5;
+}
+.container .item:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+ */
+
