@@ -1,3 +1,20 @@
+
+
+ //welcome1, welcome2, welcome3 중 하나.
+
+
+let items = document.getElementsByClassName('item'); 
+// const ranItemNum = Math.floor(Math.random()*31)+1 // = 1~31(item들 중 하나)
+
+for(let i=0; i<items.length; i++){
+  let ranNum = Math.floor(Math.random()*7)+1;
+  let ranWel = 'welcome' + ranNum;
+  items[i].classList.add(ranWel);
+}
+
+// 32개 중 랜덤 item 뽑은 후 ranWel을 할당 
+//할당받은 랜덤 item은 itemlist에서 삭제
+
 //여기서 부터 모달창 관련 스크립트
 
 let openBtns = document.getElementsByClassName('item');
@@ -78,4 +95,30 @@ for(let i=0; i<eventLen; i++){
 }
 
 //여기까지 마우스오버 이벤트 관련 스크립트
+
+
+//여기서부터 하트이모지 이벤트 관련 스크립트
+
+let hearts = document.getElementsByClassName('heart');
+// let likedhearts = document.getElementsByClassName('likedheart');
+
+
+let count = 1;
+
+for(let i=0; i<hearts.length; i++){
+  hearts[i].addEventListener('click', function(){
+    
+    if(count == 1){
+      hearts[i].style.background = 'rgb(188, 130, 255)';
+      count = 0;
+    }
+    else{
+      hearts[i].style.background = 'rgb(209, 202, 226)';
+      count = 1;   
+    }
+  }) 
+}
+
+
+
 
