@@ -1,0 +1,184 @@
+/* 여기서 부터 title 로딩 애니메이션 */
+/* .titleName1{
+    background: #263450;
+    position: absolute; */
+    /* animation: welcomeTitle1 .5s ease-in-out   */
+
+
+/* .titleName2{ */
+    /* animation: welcomeTitle2 .5s ease-in-out; */
+    /* background: #263450;
+    position: absolute; 
+  }
+
+@keyframes welcomeTitle1 {
+    0%{
+        background: #263450;
+        width: 0%;
+        height: 15%;
+    }
+    100%{
+        width: 100%;
+        height: 15%;
+    }
+    
+}
+
+@keyframes welcomeTitle2 {
+    0%{
+        color: #263450;
+        background: #263450;
+    }
+    
+} */
+
+
+
+
+
+
+
+
+/* 여기서 부터 item 로딩 애니메이션 */
+
+
+.item.welcome1 {
+    animation: welcome1 .5s ease-in-out;
+    
+}
+
+@keyframes welcome1 {
+    0%{
+        transform: scale(0);
+    }
+    45%{
+        transform: scale(1.3);
+    }
+    85%{
+        transform: scale(.9);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.item.welcome2 {
+    animation: welcome2 .6s ease-in-out;
+    
+}
+
+@keyframes welcome2 {
+    0%{
+        transform: scale(0);
+    }
+    45%{
+        transform: scale(1.3);
+    }
+    85%{
+        transform: scale(.9);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.item.welcome3 {
+    animation: welcome1 .7s ease-in-out;
+    
+}
+
+@keyframes welcome3 {
+    0%{
+        transform: scale(0);
+    }
+    45%{
+        transform: scale(1.3);
+    }
+    85%{
+        transform: scale(.9);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.item.welcome4 {
+    animation: welcome4 .8s ease-in-out;
+    
+}
+
+@keyframes welcome4 {
+    0%{
+        transform: scale(0);
+    }
+    45%{
+        transform: scale(1.3);
+    }
+    75%{
+        transform: scale(.9);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.item.welcome5 {
+    animation: welcome5 .9s ease-in-out;
+
+}
+
+@keyframes welcome5 {
+    0%{
+        transform: scale(0);
+    }
+    45%{
+        transform: scale(1.3);
+    }
+    75%{
+        transform: scale(.9);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.item.welcome6 {
+    animation: welcome6 1s ease-in-out;
+
+}
+
+@keyframes welcome6 {
+    0%{
+        transform: scale(0);
+    }
+    45%{
+        transform: scale(1.3);
+    }
+    75%{
+        transform: scale(.9);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.item.welcome7 {
+    animation: welcome7 1.1s ease-in-out;
+
+}
+
+@keyframes welcome7 {
+    0%{
+        transform: scale(0);
+    }
+    45%{
+        transform: scale(1.3);
+    }
+    75%{
+        transform: scale(.9);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
